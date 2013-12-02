@@ -1,0 +1,8 @@
+# SolutionCalling the number given in the challenge plays the message:
+>  I'm thinking of a pay-phone.  This pay-phone costs 35 cents to make a call and can be found at (latitude x.x, longitude y.y), on the second floor.  Grab some change and call me back from this phone for the next set of instructions.  Goodbye.
+Calling from the Memorial Union pay-phone plays the next message:
+>  Shall we play a game? How about a nice game of Global Thermonuclear War...Oh...Your not the Professor, you are that kid I sent on a fool's errand to that pay-phone.  I'll need you to go to a different pay-phone and call me back.  I want you to call from a free public phone located in the Parks Library.  Goodbye.
+Calling from the public phone in the Parks Library plays the next message:
+>  Oh hey.... It's you again...You are very persistant.  I'm making a note here, huge success.  It's hard to overstate my satisfaction.  Do you still want your pirate treasure?  Go to the second floor in the Nuclear Engineering building.  There is a Wifi Network called "Piratebox - Share Freely".  Join the network, and open a web browser to the page, pirate.lan.  Open the shared text file called, pirate_booty_treasure.txt.  Submit the code inside on IScore to complete this challenge.  Goodbye.
+## Note
+Commas and ellipses as well as other spellings above were added to be better suited for text-to-speech systems.
