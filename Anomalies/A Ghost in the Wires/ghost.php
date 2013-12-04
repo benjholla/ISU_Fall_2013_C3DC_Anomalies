@@ -1,6 +1,6 @@
 <?php
-  // Set your voice URL to http://example.com/ghost.php
-  // Test with /ghost.php?From=5355795023 (replace 5355795023 with your phone number to test)
+  // Set a Twillio voice URL to http://example.com/ghost.php
+  // Test with /ghost.php?From=xxxxxxxxxx (replace xxxxxxxxxx with your phone number to test)
   $solutionA = array('5355795023');
   $solutionB = array('5502971941');
 
@@ -25,3 +25,4 @@
   } else {
     echo "<Response><Reject/></Response>";
   }
+?>
