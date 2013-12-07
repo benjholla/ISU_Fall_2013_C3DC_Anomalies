@@ -1,0 +1,45 @@
+<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization',
+       'version':'1','packages':['timeline']}]}"></script>
+<script type="text/javascript">
+google.setOnLoadCallback(drawChart);
+
+function drawChart() {
+  var container = document.getElementById('timeline');
+
+  var chart = new google.visualization.Timeline(container);
+
+  var dataTable = new google.visualization.DataTable();
+
+  dataTable.addColumn({ type: 'string', id: 'Event' });
+  dataTable.addColumn({ type: 'string', id: 'Name' });
+  dataTable.addColumn({ type: 'date', id: 'Start' });
+  dataTable.addColumn({ type: 'date', id: 'End' });
+
+  // date format => Date(year, month, day, hours, minutes, seconds, milliseconds)
+  dataTable.addRows([
+    [ 'Cyber Defense Competition', 'Cyber Defense Competition', new Date(2013, 12, 7, 8, 0), new Date(2013, 12, 7, 16, 30) ],
+	['Anomaly', 'Welcome Survey', new Date(2013, 12, 7, 8, 0), new Date(2013, 12, 7, 10, 0) ],
+	['Anomaly', 'A Ghost in the Wires', new Date(2013, 12, 7, 9, 0), new Date(2013, 12, 7, 16, 30) ],
+	['Anomaly', 'A Pain in the ASCII', new Date(2013, 12, 7, 9, 0), new Date(2013, 12, 7, 16, 30) ],
+	['Anomaly', 'Employee Onboarding', new Date(2013, 12, 7, 8, 30), new Date(2013, 12, 7, 9, 30) ],
+	['Anomaly', 'Employee Promotion', new Date(2013, 12, 7, 13, 45), new Date(2013, 12, 7, 14, 15) ],
+	['Anomaly', 'Employee Termination', new Date(2013, 12, 7, 12, 0), new Date(2013, 12, 7, 12, 30) ],
+	['Anomaly', 'Open Source Software', new Date(2013, 12, 7, 14, 0), new Date(2013, 12, 7, 14, 30) ],
+	['Anomaly', 'The Cryptogram', new Date(2013, 12, 7, 10, 30), new Date(2013, 12, 7, 16, 30) ],
+	['Anomaly', 'The Encoded Cryptogram', new Date(2013, 12, 7, 11, 30), new Date(2013, 12, 7, 16, 30) ],
+	['Anomaly', 'Treasure Hunt', new Date(2013, 12, 7, 14, 0), new Date(2013, 12, 7, 16, 30) ],
+	['Anomaly', 'Valentines Day', new Date(2013, 12, 7, 9, 0), new Date(2013, 12, 7, 16, 30) ],
+	['Anomaly', 'Where in the World is Satoshi Nakamoto', new Date(2013, 12, 7, 10, 0), new Date(2013, 12, 7, 16, 30) ],
+	['Anomaly', 'Final Survey', new Date(2013, 12, 7, 15, 30), new Date(2013, 12, 7, 16, 30) ],
+	['Anomaly', 'File Recovery', new Date(2013, 12, 7, 13, 45), new Date(2013, 12, 7, 14, 30) ],
+	['Anomaly', 'Add A Service', new Date(2013, 12, 7, 13, 45), new Date(2013, 12, 7, 14, 30) ]]);
+
+  var options = {
+     timeline: { colorByRowLabel: true },
+     colors: ['#cbb69d', '#8d8']
+  };
+
+  chart.draw(dataTable, options);
+}
+</script>
+<div id="timeline" style="width: 100%; height: 800px;"></div>
