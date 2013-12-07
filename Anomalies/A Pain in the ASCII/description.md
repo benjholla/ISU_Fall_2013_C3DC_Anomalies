@@ -1,6 +1,6 @@
 # A Pain in the ASCII
 
-[Attached](./encoded-message.txt) is a message that was encoded three times.  The message uses three encoding techniques:
+Attached (encoded-message.txt) is a message that was encoded three times.  The message uses three encoding techniques:
 
 1.  ASCII text to Binary as ASCII text
 2.  ASCII text to Octal as ASCII text

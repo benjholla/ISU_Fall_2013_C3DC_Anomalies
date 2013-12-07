@@ -9,13 +9,13 @@ One way to solve the challenge is outlined below.
 5. The example ValidatePrimes.java program validates prime numbers as valid phone NANP numbers.  There are `257028059` valid prime phone numbers.
 6. At this point we have enough information to solve option A and option B.
 
-## Option A Solution:
+## Option A Solution (25 points):
 
 `Approximate Number of Non-Prime Phone Numbers` = `Total NANP Numbers` - `Number 10-digit prime numbers` = `5760000000` - `404204977` = `5355795023` = `(535) 579-5023`
 
 Calling the target number from a spoofed caller ID of `(535) 579-5023` plays the message "The code is 'OPERATION TAKE DOWN'".
 
-## Option B Solution:
+## Option B Solution (40 points):
 
 `Number of Non-Prime Phone Numbers` = `Total NANP Numbers` - `Number 10-digit prime phone numbers` = `5760000000` - `257028059` = `5502971941` = `(550) 297-1941`
 

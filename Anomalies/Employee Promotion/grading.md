@@ -1,1 +1,1 @@
-TODO
+If shelby has admin privileges give full points.

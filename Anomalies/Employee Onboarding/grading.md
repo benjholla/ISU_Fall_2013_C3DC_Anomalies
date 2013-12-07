@@ -1,1 +1,1 @@
-TODO
+If we can log in on all services give them 5 points for each service/system the account should exist on for the given role.  If the user is only partial enabled, give partial credit (less than [5 points]) where applicable.

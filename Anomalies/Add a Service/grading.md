@@ -1,2 +1,1 @@
-# Grading
-TODO
+If a non-admin user is able to log in, web grant full points.  Users need to be able to read and write a file to their home directory.
