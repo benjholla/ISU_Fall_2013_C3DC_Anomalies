@@ -10,9 +10,9 @@ These anomalies were created for the Iowa State University Fall 2013 Community C
 ## Participation
 The ISU Fall 2013 CDC had 15 teams register to compete in the Fall 2013 Community College Cyber Defense Competition.  Before the competition, some teams disbanded and as a result a few teams members were added to the remaining teams leaving 13 participating teams during the competition.
 
-<img src="./Results/Team_Attendence.png" alt="Team Attendence" style="width:100%;"/>
+<img src="./Results/team_attendence.png" alt="Team Attendence" style="width:100%;"/>
 
 ## Anomalies
 The competition had a total of 15 anomalies.  For the majority of the competition multiple overlapping anomalies were active for teams to attempt.  Partial credit was given when grading submissions (when applicable).
 
-<img src="./Results/Timeline.png" alt="Team Attendence" style="width:100%;"/>
+<img src="./Results/timeline.png" alt="Team Attendence" style="width:100%;"/>
