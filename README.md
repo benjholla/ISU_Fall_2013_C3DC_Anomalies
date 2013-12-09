@@ -13,7 +13,7 @@ The ISU Fall 2013 CDC had 15 teams register to compete in the Fall 2013 Communit
 <img src="./Results/team_attendance.png" alt="Team Attendance" style="width:100%;"/>
 
 ## Anomalies
-The competition had a total of 15 anomalies.  For the majority of the competition multiple overlapping anomalies were active for teams to attempt.  Partial credit was given when grading submissions (when applicable).
+The competition had a total of 15 anomalies.  For the majority of the competition multiple overlapping anomalies were active for teams to attempt.  Partial credit was given when grading submissions (when applicable).  This year we held the Fire Drill event at 1:30 PM.  The Fire Drill event is a tradition for ISU CDC's that aims to catch participants off guard and gives Red Team a short time to perform physical attacks on the Blue team networks.  In line with the competition scenario, the Fire Drill was disguised as a deadly infection where all members had to be quarantined for 10 minutes in an adjacent room.  After the 10-minute quarantine period Red team returned to their area, and team members counted off 1 through 8.  Members 3,5, and 7 remained infected for another 20 minutes while the rest of the team returned to work on anomalies.  The additional quarantine time was biased towards large teams such that teams of 3-4 lost one member, teams of 5-6 lost two members, and teams of 7-8 lost three members.
 
 <img src="./Results/timeline.png" alt="Timeline" style="width:100%;"/>
 
