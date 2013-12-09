@@ -15,4 +15,22 @@ ISU Fall 2013 C3DC Anomalies============================This repository conta
 | Open Source Software                   |     25    |   FALSE  |  2:00 PM |  2:30 PM |          30 Minutes |
 | Treasure Hunt                          |     30    |   FALSE  |  2:00 PM |  4:30 PM | 2 Hours, 30 Minutes |
 | Final Survey                           |     10    |   TRUE   |  3:30 PM |  4:30 PM |              1 Hour |## Results
-The anomalies `Employee Onboarding`, `Add a Service` and `Employee Promotion` were designed to increase the attack surface area of the network and as a result many teams decided to strategically abstain from the challenge.  The `Open Source Software` anomaly was designed to test teams on their ability to sanitize source code and the Red team was given a link to the source repositories created by the Blue teams that completed the challenge.  The remaining challenges were generally beneficial for teams to complete.  Some challenges were much more difficult than others and due to time constraints many teams did not submit all challenges.
+The anomalies `Employee Onboarding`, `Add a Service` and `Employee Promotion` were designed to increase the attack surface area of the network and as a result some teams decided to strategically abstain from the challenge.  The `Open Source Software` anomaly was designed to test teams on their ability to sanitize source code and the Red team was given a link to the source repositories created by the Blue teams that completed the challenge.  The remaining challenges were generally beneficial for teams to complete.  Some challenges were much more difficult than others and due to time constraints many teams did not submit all challenges. The `Valentines Day` anomaly contained some hashes that were unlikely to be broken in the challenge time frame and as a result the maximum score earned for the anomaly was 4 out of 10 points.  The `A Ghost in the Wires` anomaly contained two options for completing the challenge, where the easier option resulted in half points being earned.  Only one team completed the harder option of the anomaly.
+
+| **Anomaly Name**                       | **Submitted** | **Declined** | **Unfinished** | **Average Point Percentage Earned** |
+|----------------------------------------|:-------------:|:------------:|:--------------:|------------------------------------:|
+| Welcome Survey                         |     100 %     |      0 %     |       0 %      |                               100 % |
+| Employee Onboarding                    |     84.6 %    |      0 %     |     15.4 %     |                              39.1 % |
+| A Ghost in the Wires                   |     46.2 %    |     7.7 %    |     46.2 %     |                                50 % |
+| A Pain in the ASCII                    |     92.3 %    |      0 %     |      7.7 %     |                                70 % |
+| Valentines Day                         |     76.9 %    |     7.7 %    |     15.4 %     |                                29 % |
+| Where in the World is Satoshi Nakamoto |     100 %     |      0 %     |       0 %      |                              96.9 % |
+| The Cryptogram                         |     92.3 %    |      0 %     |      7.7 %     |                              83.3 % |
+| The Encoded Cryptogram                 |     46.2 %    |     7.7 %    |     46.2 %     |                              66.7 % |
+| Employee Termination                   |     100 %     |      0 %     |       0 %      |                              75.4 % |
+| Employee Promotion                     |     30.8 %    |    23.1 %    |     46.2 %     |                                80 % |
+| File Recovery                          |     69.2 %    |      0 %     |     30.8 %     |                              93.3 % |
+| Add a Service                          |     23.1 %    |    46.2 %    |     30.8 %     |                                75 % |
+| Open Source Software                   |     15.4 %    |    30.8 %    |     53.8 %     |                               100 % |
+| Treasure Hunt                          |     100 %     |      0 %     |       0 %      |                               100 % |
+| Final Survey                           |     100 %     |      0 %     |       0 %      |                               100 % |
