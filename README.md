@@ -34,3 +34,7 @@ The anomalies `Employee Onboarding`, `Add a Service` and `Employee Promotion` we
 | Open Source Software                   |     15.4 %    |    30.8 %    |     53.8 %     |                               100 % |
 | Treasure Hunt                          |     100 %     |      0 %     |       0 %      |                               100 % |
 | Final Survey                           |     100 %     |      0 %     |       0 %      |                               100 % |
+
+Similarly to the [ISU Fall Cyber Defense Competition anomalies](https://github.com/benjholla/ISU_Fall_2013_CDC_Anomalies), the size of the team did not seem to affect the team’s ability to solve anomalies.
+
+<img src="./Results/team_checked_in_vs_anomaly_score.png" alt="Team Size Vs. Anomaly Score" style="width:100%;"/>
